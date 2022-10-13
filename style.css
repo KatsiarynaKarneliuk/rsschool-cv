@@ -1,0 +1,20 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: BlinkMacSystemFont,"Segoe UI", Roboto,"Helvetica Neue", Arial, sans-serif;
+    color:#333333;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0% 0% 0% ;
+}
+
+.logo{
+    width: 10%;
+}
+
+#exampls, #mySkills, #education, #english{
+    padding: 1% 0 0 0;
+}
