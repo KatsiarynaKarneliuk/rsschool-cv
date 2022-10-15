@@ -1,0 +1,77 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333333;
+}
+
+footer {
+    background-color: #f3f3f3;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.myPicture {
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
+.menu {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.menu>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.menu>ul>li {
+    float: right;
+}
+
+.menu>ul>li a {
+    display: block;
+    color: rgb(143, 139, 139);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(212, 211, 211);
+}
+
+footer,
+#skills,
+#exampls,
+#codeExample,
+#education,
+#english {
+    padding: 10px 0 0 0;
+}
+
+#codeExample {
+    background-color: rgb(164, 185, 186);
+    padding: 1%;
+}
+
+.codeHeader {
+    font-style: italic;
+    font-weight: bold;
+}
